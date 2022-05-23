@@ -1,0 +1,29 @@
+.searchWrrapper {
+  width: 500px;
+  height: 40px;
+
+  .inputWrapper {
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+
+    .searchInput {
+      height: 100%;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      padding: 0 40px;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      width: 14px;
+      height: 14px;
+      transform: translateY(-50%);
+    }
+  }
+
+}

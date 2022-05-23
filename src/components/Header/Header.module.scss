@@ -4,9 +4,10 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
+
+  .logo {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
 }
 
-.logo {
-  margin-left: 40px;
-  margin-right: 20px;
-}

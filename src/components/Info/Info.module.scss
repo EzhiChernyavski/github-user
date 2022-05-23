@@ -1,0 +1,39 @@
+.info {
+  img {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0064EB;
+  }
+
+  .subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+    p{
+      font-size: 16px;
+      margin-right: 20px;
+    }
+
+  }
+
+
+}

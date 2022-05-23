@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #E5E5E5;
+}
+
+p {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: calc(14px + 1vmin);
+  flex-wrap: wrap;
+
+}

@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  .repo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 25px;
+
+
+    a {
+      text-decoration: none;
+      color: #0064EB;
+      font-size: 24px;
+    }
+
+    p {
+      margin-top: 15px;
+      line-height: 1.3em;
+    }
+  }
+}
